@@ -3,6 +3,10 @@
 # dependencies
 node_modules/
 
+# Documentação e orientações de uso pessoal: mantidas apenas no computador
+/docs/
+/AGENTS.md
+
 # Expo
 .expo/
 dist/

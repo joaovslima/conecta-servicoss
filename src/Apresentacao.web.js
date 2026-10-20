@@ -33,18 +33,8 @@ export default function Apresentacao({ children }) {
           <span>Eletricista</span><span>Encanador</span><span>Pedreiro</span><span>Montador de móveis</span>
         </div>
 
-        <section className="como-testar" aria-labelledby="titulo-teste">
-          <h2 id="titulo-teste">EXPERIMENTE O ESBOÇO <span>↙</span></h2>
-          <ol>
-            <li><span className="numero">01</span><div><strong>Encontre um serviço</strong><p>Abra um pedido e conheça os detalhes.</p></div></li>
-            <li><span className="numero">02</span><div><strong>Envie uma proposta</strong><p>Informe um preço fechado e uma mensagem.</p></div></li>
-            <li><span className="numero">03</span><div><strong>Publique sua necessidade</strong><p>Escolha a categoria, descreva o serviço e indique o bairro.</p></div></li>
-          </ol>
-        </section>
-
         <div className="acoes-vitrine">
           <a className="link-repositorio" href="https://github.com/joaovslima/conecta-servicoss" target="_blank" rel="noreferrer">Ver código no GitHub <span aria-hidden="true">↗</span></a>
-          <a className="link-documentacao" href="https://github.com/joaovslima/conecta-servicoss/blob/main/docs/DISCOVERY.md" target="_blank" rel="noreferrer">Ler o discovery <span aria-hidden="true">↗</span></a>
         </div>
         <p className="nota-prototipo"><span aria-hidden="true">◌</span> Versão de demonstração com dados fictícios. Os dados são reiniciados ao atualizar a página. Login, contratação e avaliações estão planejados.</p>
       </aside>
