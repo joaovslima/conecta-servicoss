@@ -27,3 +27,12 @@ As pastas `dist`, `node_modules` e `.expo` estão ignoradas pelo Git. Não foi c
 - `npx eslint .` passou. O wrapper `expo lint` acusou incompatibilidade com a detecção da versão instalada, então o script `npm run lint` utiliza ESLint diretamente.
 - `npx --no-install tsc --noEmit --allowJs --checkJs false --jsx react --skipLibCheck App.js src/dados.js` passou. Esta é uma verificação de processamento do JavaScript; com `checkJs false`, não representa tipagem estática completa.
 - Interações no navegador e no Android ainda precisam de verificação manual.
+
+## Apresentação com moldura de celular
+
+- Exportação web e exportação Android concluídas após adicionar a apresentação por plataforma.
+- Lint e processamento de JavaScript verificados.
+- Navegador Chrome em modo headless: serviço publicado, bloqueio de candidatura no próprio serviço e proposta de R$ 150,00 verificados pela interface.
+- Layout inspecionado em capturas de 1440 × 1000 e 375 × 812. Sem overflow horizontal na largura de 375 px.
+- Nenhum erro JavaScript durante o teste de interação.
+- O teste de navegador não substitui o teste no aparelho Android.

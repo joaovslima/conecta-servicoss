@@ -20,6 +20,8 @@ Não tente decorar tudo. Altere um texto, uma cor e um dado de exemplo, e observ
 
 ## Roteiro da entrega parcial
 
+No computador, abra https://joaovslima.github.io/conecta-servicoss/. A moldura de celular contém o próprio app funcionando. Role dentro da tela do celular para ver os outros serviços; a coluna lateral apresenta o contexto e o roteiro. No Android, o Expo usa `src/Apresentacao.js` e mostra apenas o app. No navegador, escolhe `src/Apresentacao.web.js` e adiciona a moldura e as informações. O arquivo CSS cuida somente dessa apresentação.
+
 1. Apresentar o problema, a cidade e as quatro categorias.
 2. Abrir um serviço fictício e explicar os campos.
 3. Tentar enviar proposta vazia: deve aparecer validação.

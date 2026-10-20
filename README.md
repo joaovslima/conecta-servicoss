@@ -4,6 +4,8 @@ Projeto acadêmico de Desenvolvimento Mobile — Análise e Desenvolvimento de S
 
 **Entrega parcial:** 26/10/2026. **Apresentação final:** 23/11/2026. Desenvolvimento individual.
 
+**[Testar a demonstração interativa](https://joaovslima.github.io/conecta-servicoss/)** — no computador, o aplicativo aparece dentro de uma moldura de celular, com informações do projeto ao lado. Em telas pequenas, as informações aparecem abaixo.
+
 ## Problema e proposta
 
 Hoje as pessoas dependem de indicações, WhatsApp e redes sociais para encontrar profissionais e obter orçamentos. A proposta é reunir pedidos e propostas de preço fechado. Depois do consentimento, as partes negociam pelo WhatsApp. Pagamentos são feitos diretamente entre elas.
@@ -34,13 +36,16 @@ npm start
 
 Com um emulador Android configurado, execute `npm run android`. Em celular físico, use Expo Go **se a versão instalada for compatível com o SDK do projeto**; caso contrário, será necessário um development build ou alinhar a versão do SDK antes da apresentação. A execução em aparelho ainda precisa ser validada.
 
-Para testar a mesma demonstração no navegador, execute `npm run web`. A configuração de publicação automática no GitHub Pages está em `.github/workflows/pages.yml`; veja o [passo a passo de publicação](docs/PUBLICACAO.md). Nenhum link público foi criado ainda.
+Para testar a mesma demonstração no navegador, execute `npm run web`. A configuração de publicação automática no GitHub Pages está em `.github/workflows/pages.yml`; veja o [passo a passo de publicação](docs/PUBLICACAO.md).
 
 ## Organização e conceitos
 
 ```text
 App.js                 Telas, componentes pequenos, estado e ações
 src/dados.js           Categorias e serviços fictícios
+src/Apresentacao.js    No Android, exibe o aplicativo diretamente
+src/Apresentacao.web.js Moldura de celular e painel informativo no navegador
+src/apresentacao.css   Estilos da apresentação web
 docs/DISCOVERY.md      Problema, regras, requisitos e modelo de dados
 docs/PLANO.md          Etapas até a entrega final
 docs/APRESENTACAO.md   Guia de estudo e roteiro de demonstração
