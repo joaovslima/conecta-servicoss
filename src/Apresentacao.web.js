@@ -30,10 +30,6 @@ export default function Apresentacao({ children }) {
           <span>Eletricista</span><span>Encanador</span><span>Pedreiro</span><span>Montador de móveis</span>
         </div>
 
-        <div className="acoes-vitrine">
-          <a className="link-repositorio" href="https://github.com/joaovslima/conecta-servicoss" target="_blank" rel="noreferrer">Ver código no GitHub <span aria-hidden="true">↗</span></a>
-        </div>
-
       </aside>
     </main>
 
