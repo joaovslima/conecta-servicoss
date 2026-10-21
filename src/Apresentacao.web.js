@@ -1,7 +1,5 @@
 import './apresentacao.css';
 
-// O Expo escolhe este arquivo .web.js somente para a versão de navegador.
-// children é o próprio aplicativo interativo, não uma imagem da tela.
 export default function Apresentacao({ children }) {
   return <div className="vitrine">
     <header className="vitrine-topo">
@@ -22,7 +20,6 @@ export default function Apresentacao({ children }) {
           <div className="tela-celular">{children}</div>
           <div className="barra-gesto" aria-hidden="true" />
         </div>
-        <p className="dica-demo">Use o aplicativo aqui. Clique, publique e explore.</p>
       </section>
 
       <aside className="informacoes" aria-labelledby="titulo-projeto">
@@ -31,6 +28,10 @@ export default function Apresentacao({ children }) {
         <p className="introducao">Quem precisa de uma mão encontra quem sabe fazer. Um aplicativo para aproximar clientes e profissionais de serviços em Fortaleza.</p>
         <div className="etiquetas" aria-label="Categorias atendidas">
           <span>Eletricista</span><span>Encanador</span><span>Pedreiro</span><span>Montador de móveis</span>
+        </div>
+
+        <div className="acoes-vitrine">
+          <a className="link-repositorio" href="https://github.com/joaovslima/conecta-servicoss" target="_blank" rel="noreferrer">Ver código no GitHub <span aria-hidden="true">↗</span></a>
         </div>
 
       </aside>
