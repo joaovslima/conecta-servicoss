@@ -33,10 +33,6 @@ export default function Apresentacao({ children }) {
           <span>Eletricista</span><span>Encanador</span><span>Pedreiro</span><span>Montador de móveis</span>
         </div>
 
-        <div className="acoes-vitrine">
-          <a className="link-repositorio" href="https://github.com/joaovslima/conecta-servicoss" target="_blank" rel="noreferrer">Ver código no GitHub <span aria-hidden="true">↗</span></a>
-        </div>
-        <p className="nota-prototipo"><span aria-hidden="true">◌</span> Versão de demonstração com dados fictícios. Os dados são reiniciados ao atualizar a página. Login, contratação e avaliações estão planejados.</p>
       </aside>
     </main>
 
