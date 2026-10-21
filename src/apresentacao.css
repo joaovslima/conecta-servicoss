@@ -1,0 +1,70 @@
+/* Estilos da apresentação no navegador. O aplicativo mantém seus estilos React Native. */
+.vitrine, .vitrine * { box-sizing: border-box; }
+.vitrine { width: 100vw; height: 100dvh; overflow-y: auto; overflow-x: hidden; color: #f3f4ef; background: radial-gradient(ellipse at 25% 42%, #20332b66, transparent 52%), #101613; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+.vitrine a { text-decoration: none; }
+.vitrine a:focus-visible { outline: 3px solid #efba87; outline-offset: 6px; }
+.vitrine-topo { max-width: 1240px; margin: auto; padding: 28px 48px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #ffffff14; }
+.assinatura { display: flex; gap: 12px; align-items: center; color: #f3f4ef; font-size: 18px; font-weight: 700; letter-spacing: -.5px; }
+.assinatura-leve { font-weight: 400; color: #b2bbb5; }
+.simbolo { display: flex; align-items: center; justify-content: center; width: 38px; height: 38px; border: 1px solid #688273; border-radius: 12px; font-size: 19px; color: #d3e9b4; }
+.simbolo span { font-size: 12px; align-self: flex-start; margin-top: 5px; }
+.etiqueta-topo { font-size: 10px; letter-spacing: 1.7px; color: #a6b1a9; }
+.etiqueta-topo span { margin: 0 12px; color: #55665a; }
+.vitrine-principal { max-width: 1160px; margin: auto; display: grid; grid-template-columns: 1fr 1.12fr; gap: 78px; align-items: center; padding: 42px 48px 36px; }
+.demonstracao { display: flex; flex-direction: column; align-items: center; min-width: 0; }
+.legenda-demo { display: flex; align-items: center; gap: 8px; color: #acb9b0; font-size: 9px; letter-spacing: 1.8px; margin-bottom: 20px; }
+.ponto { width: 6px; height: 6px; display: inline-block; flex-shrink: 0; border-radius: 50%; background: #b3d68d; }
+.celular { position: relative; width: 352px; height: 720px; padding: 9px; border-radius: 47px; background: linear-gradient(120deg, #859089, #222b26 15%, #060a08 55%, #556159); border: 1px solid #748178; box-shadow: 0 32px 70px #0008, inset 0 0 0 3px #171c19, 0 0 80px #a6c68b0a; }
+.tela-celular { display: flex; flex-direction: column; width: 100%; height: 100%; min-height: 0; border-radius: 38px; overflow: hidden; background: #f3f6fa; border: 1px solid #000; }
+.camera { position: absolute; z-index: 5; top: 17px; left: 50%; transform: translateX(-50%); height: 23px; width: 86px; border-radius: 20px; background: #070b09; pointer-events: none; }
+.camera span { position: absolute; right: 10px; top: 7px; height: 9px; width: 9px; border-radius: 50%; background: #172d38; border: 2px solid #111b20; }
+.botao-lateral { position: absolute; width: 4px; background: #69756d; border-radius: 3px; left: -4px; height: 34px; top: 125px; }
+.botao-lateral-dois { top: 176px; height: 54px; }
+.barra-gesto { position: absolute; bottom: 15px; left: 50%; transform: translateX(-50%); width: 90px; height: 4px; border-radius: 5px; background: #173c5066; pointer-events: none; }
+.dica-demo { color: #97a69c; font-size: 11px; margin: 20px 0 0; text-align: center; }
+.localizacao { display: flex; align-items: center; gap: 8px; font-size: 9px; letter-spacing: 1.45px; color: #c7d1c9; margin-bottom: 22px; }
+.separador { color: #54675a; margin: 0 8px; }
+.informacoes h1 { margin: 0; font-size: clamp(36px, 4vw, 54px); font-weight: 600; line-height: 1.13; letter-spacing: -2.2px; }
+.informacoes h1 > span { color: #d5e9b9; }
+.introducao { max-width: 430px; color: #aebbb2; font-size: 15px; line-height: 1.8; margin: 23px 0; }
+.etiquetas { display: flex; flex-wrap: wrap; gap: 7px; }
+.etiquetas > span { border: 1px solid #ffffff20; padding: 7px 11px; border-radius: 5px; font-size: 10px; color: #c7d2ca; }
+.como-testar { border-top: 1px solid #ffffff19; padding-top: 24px; margin-top: 30px; }
+.como-testar h2 { font-size: 10px; letter-spacing: 1.5px; color: #aebbb2; margin: 0 0 22px; font-weight: 500; }
+.como-testar h2 > span { color: #d5e9b9; margin-left: 12px; font-size: 16px; }
+.como-testar ol { list-style: none; padding: 0; margin: 0; display: grid; gap: 17px; }
+.como-testar li { display: flex; gap: 15px; align-items: baseline; }
+.numero { font-size: 10px; color: #d2b58c; font-family: monospace; }
+.como-testar strong { font-weight: 500; font-size: 13px; }
+.como-testar p { margin: 5px 0 0; font-size: 11px; line-height: 1.6; color: #a5b3a9; }
+.acoes-vitrine { display: flex; gap: 22px; align-items: center; margin-top: 28px; flex-wrap: wrap; }
+.link-repositorio { display: inline-flex; gap: 20px; align-items: center; padding: 13px 17px; background: #d5e9b9; color: #17251b; border-radius: 6px; font-size: 12px; font-weight: 600; transition: background .2s; }
+.link-repositorio:hover { background: #e4f3cf; }
+.link-documentacao { color: #d5e1d8; font-size: 12px; }
+.link-documentacao span { margin-left: 5px; }
+.nota-prototipo { font-size: 10px; line-height: 1.8; color: #94a399; margin: 24px 0 0; max-width: 430px; }
+.nota-prototipo > span { color: #d2b58c; margin-right: 5px; }
+.vitrine-rodape { max-width: 1144px; margin: 0 auto; padding: 24px 0 28px; border-top: 1px solid #ffffff14; display: flex; justify-content: space-between; gap: 16px; color: #94a399; font-size: 10px; line-height: 1.8; }
+.tecnologias { white-space: nowrap; }
+.tecnologias span { color: #536b5b; margin: 0 6px; }
+@media (min-width: 961px) and (max-height: 850px) {
+  .celular { height: 625px; width: 330px; }
+  .vitrine-topo { padding-top: 18px; padding-bottom: 18px; }
+  .vitrine-principal { padding-top: 28px; gap: 65px; }
+}
+@media (max-width: 1200px) { .vitrine-rodape { margin-left: 48px; margin-right: 48px; } }
+@media (max-width: 960px) {
+  .vitrine-principal { gap: 34px; padding-left: 28px; padding-right: 28px; }
+  .celular { width: 320px; height: 670px; }
+  .informacoes h1 { font-size: 37px; letter-spacing: -1.4px; }
+  .localizacao { flex-wrap: wrap; line-height: 1.8; }
+}
+@media (max-width: 740px) {
+  .vitrine-topo { padding: 20px; }
+  .etiqueta-topo { display: none; }
+  .vitrine-principal { grid-template-columns: minmax(0, 1fr); padding: 28px 18px 40px; gap: 44px; }
+  .celular { width: min(352px, calc(100vw - 40px)); height: 690px; }
+  .informacoes { max-width: 480px; margin: auto; padding: 0 8px; }
+  .informacoes h1 { font-size: 40px; }
+  .vitrine-rodape { margin: 0 26px; flex-direction: column; gap: 10px; }
+}
