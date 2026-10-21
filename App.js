@@ -61,9 +61,9 @@ export default function App() {
 
   return <View style={styles.pagina}>
     <StatusBar style="light" />
-    <View style={styles.cabecalho}><Text style={styles.marca}>Conecta Serviços</Text><Text style={styles.subtitulo}>Fortaleza • Projeto acadêmico</Text></View>
+    <View style={styles.cabecalho}><Text style={styles.marca}>Conecta Serviços</Text><Text style={styles.subtitulo}>Orientador: Abraão Henrique Salgado </Text></View>
     <ScrollView contentContainerStyle={styles.conteudo} keyboardShouldPersistTaps="handled">
-      <Text style={styles.aviso}>Protótipo: sem login, com dados fictícios em memória.</Text>
+      
       {aviso !== '' && <TouchableOpacity accessibilityRole="button" accessibilityLabel="Dispensar mensagem" onPress={() => setAviso('')}><Text accessibilityLiveRegion="polite" style={styles.aviso}>{aviso} (toque para fechar)</Text></TouchableOpacity>}
       {tela === 'lista' && <>
         <Text style={styles.titulo}>Serviços disponíveis</Text>
