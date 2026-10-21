@@ -7,12 +7,12 @@ export default function Apresentacao({ children }) {
         <span className="simbolo">cs<span>↗</span></span>
         <span>conecta<span className="assinatura-leve"> serviços</span></span>
       </a>
-      <span className="etiqueta-topo">DESENVOLVIMENTO MOBILE <span> / </span> 2026</span>
+      
     </header>
 
     <main className="vitrine-principal">
-      <section className="demonstracao" aria-label="Demonstração interativa do aplicativo">
-        <div className="legenda-demo"><span className="ponto" /> DEMONSTRAÇÃO INTERATIVA</div>
+      <section>
+      
         <div className="celular">
           <div className="botao-lateral botao-lateral-um" aria-hidden="true" />
           <div className="botao-lateral botao-lateral-dois" aria-hidden="true" />
@@ -23,7 +23,7 @@ export default function Apresentacao({ children }) {
       </section>
 
       <aside className="informacoes" aria-labelledby="titulo-projeto">
-        <div className="localizacao"><span className="ponto" /> FORTALEZA, CE <span className="separador">/</span> MVP ACADÊMICO</div>
+        
         <h1 id="titulo-projeto">Um serviço.<br />Uma oportunidade.<br /><span>Uma conexão.</span></h1>
         <p className="introducao">Quem precisa de uma mão encontra quem sabe fazer. Um aplicativo para aproximar clientes e profissionais de serviços em Fortaleza.</p>
         <div className="etiquetas" aria-label="Categorias atendidas">
@@ -37,6 +37,5 @@ export default function Apresentacao({ children }) {
       </aside>
     </main>
 
-    <footer className="vitrine-rodape"><span>João Victor <span className="separador">/</span> Análise e Desenvolvimento de Sistemas · 4º semestre</span><span className="tecnologias">JavaScript <span>+</span> React Native <span>+</span> Expo</span></footer>
   </div>;
 }
